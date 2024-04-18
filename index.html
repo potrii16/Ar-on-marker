@@ -11,12 +11,7 @@
     <a-scene embedded arjs='sourceType: webcam;'>
         <a-marker url='https://github.com/potrii16/Ar-on-marker/raw/main/pattern-marker.patt'>
             <!-- 3D model will be placed here -->
-            <a-entity 
-                gltf-model="https://github.com/potrii16/Ar-on-marker/raw/main/Chair.glb" 
-                scale="0.5 0.5 0.5" 
-                position="0 0.5 0"
-                animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
-            </a-entity>
+            <a-box position="0 0.5 0" material="color: red;"></a-box>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
